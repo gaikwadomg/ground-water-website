@@ -1,24 +1,280 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Learning git local commands</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Navbar Example</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
+ <style>
+    /* Custom CSS styles can be added here */
+    .home-section {
+      padding: 100px 0;
+      text-align: center;
+      background-color: #f8f9fa;
+    }
+    .home-section h1 {
+      font-size: 3em;
+      color: #333;
+    }
+    .home-section p {
+      font-size: 1.2em;
+      color: #555;
+    }
+
+	/* Custom CSS styles can be added here */
+    .about-section {
+      padding: 80px 0;
+      background-color: #ffffff;
+      text-align: center;
+    }
+    .about-section h2 {
+      font-size: 2.5em;
+      color: #333;
+    }
+    .about-section p {
+      font-size: 1.2em;
+      color: #555;
+      margin-top: 20px;
+    }
+
+ /* Custom CSS styles can be added here */
+    .services-section {
+      padding: 80px 0;
+      background-color: #f8f9fa;
+      text-align: center;
+    }
+    .services-section h2 {
+      font-size: 2.5em;
+      color: #333;
+    }
+    .services-section p {
+      font-size: 1.2em;
+      color: #555;
+      margin-top: 20px;
+    }
+
+/* Custom CSS styles can be added here */
+    .contact-section {
+      padding: 80px 0;
+      background-color: #ffffff;
+      text-align: center;
+    }
+    .contact-section h2 {
+      font-size: 2.5em;
+      color: #333;
+    }
+    .contact-section p {
+      font-size: 1.2em;
+      color: #555;
+      margin-top: 20px;
+    }
+    .contact-section .contact-info {
+      margin-top: 40px;
+    }
+    .contact-section .contact-info p {
+      font-size: 1.1em;
+    }
+
+</style>
 <body>
-    <h1>
-        Learning Git by Doing !.....Hello 
 
-    </h1>
+<nav class="navbar navbar-expand-lg navbar-light bg-light nav-fixed ">
+  <a class="navbar-brand" href="#">Your Logo</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Services</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
 
-    <p>
-        I am enjoying lerning version control system git and git hub 
-    </p>
+<section class="home-section">
+  <div class="container">
+    <h1>Welcome to Our Website</h1>
+    <p>Explore our services and discover more about us.</p>
+    <a href="#" class="btn btn-primary">Get Started</a>
+  </div>
+</section>
 
-    <h2>
-        This is new featured heading i created in newfeature branch using git checkout -b btranchName command .! 
-    </h2>
-    
+<section id="about" class="about-section">
+  <div class="container">
+    <h2>About Us</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus lectus vitae augue sodales lacinia. Nullam aliquam eros eget eros accumsan tristique.</p>
+    <p>Phasellus volutpat nulla eu malesuada vehicula. Curabitur eu enim vitae ex convallis semper non vel purus.</p>
+  </div>
+</section>
+
+<section class="services-section">
+  <div class="container">
+    <h2>Our Services</h2>
+    <p>We offer a wide range of services to meet your needs.</p>
+    <div class="row">
+      <div class="col-md-4">
+        <h3>Service 1</h3>
+        <p>Description of Service 1.</p>
+      </div>
+      <div class="col-md-4">
+        <h3>Service 2</h3>
+        <p>Description of Service 2.</p>
+      </div>
+      <div class="col-md-4">
+        <h3>Service 3</h3>
+        <p>Description of Service 3.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="contact-section">
+  <div class="container">
+    <h2>Contact Us</h2>
+    <p>Get in touch with us for any inquiries or questions.</p>
+    <div class="contact-info">
+      <p>Email: info@example.com</p>
+      <p>Phone: +1234567890</p>
+      <p>Address: 123 Street, City, Country</p>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h3>About Us</h3>
+        <p>A brief description about your company or website.</p>
+      </div>
+      <div class="col-md-6">
+        <h3>Contact Information</h3>
+        <p>Email: info@example.com<br>Phone: +1234567890<br>Address: 123 Street, City, Country</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <p>&copy; 2023 YourWebsite. All rights reserved.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<style>
+
+	.home-section {
+  padding: 100px 0;
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+}
+.home-section h1 {
+  font-size: 3em;
+  color: #fff;
+}
+.home-section p {
+  font-size: 1.2em;
+  color: #ccc;
+}
+.home-section a.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+.home-section a.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.about-section {
+  padding: 80px 0;
+  background-color: #222;
+  text-align: center;
+  color: #fff;
+}
+.about-section h2 {
+  font-size: 2.5em;
+  color: #fff;
+}
+.about-section p {
+  font-size: 1.2em;
+  color: #ccc;
+}
+
+.services-section {
+  padding: 80px 0;
+  background-color: #333;
+  text-align: center;
+  color: #fff;
+}
+.services-section h2 {
+  font-size: 2.5em;
+  color: #fff;
+}
+.services-section p {
+  font-size: 1.2em;
+  color: #ccc;
+}
+.services-section h3,
+.services-section p {
+  color: #ccc;
+}
+
+.contact-section {
+  padding: 80px 0;
+  background-color: #222;
+  text-align: center;
+  color: #fff;
+}
+.contact-section h2 {
+  font-size: 2.5em;
+  color: #fff;
+}
+.contact-section p {
+  font-size: 1.2em;
+  color: #ccc;
+}
+.contact-section .contact-info p {
+  font-size: 1.1em;
+  color: #ccc;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 40px 0;
+}
+
+.footer h3 {
+  color: #fff;
+}
+
+.footer p {
+  color: #ccc;
+}
+
+.footer p a {
+  color: #fff;
+}
+
+.footer p a:hover {
+  color: #bbb;
+}
+
+
+</style>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
