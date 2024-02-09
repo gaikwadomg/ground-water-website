@@ -35,4 +35,3 @@ This project is licensed under the [MIT License](LICENSE).
 ---
 
 Feel free to contribute to the project by submitting issues or pull requests. For any questions or feedback, please contact [Email me](mailto:ogaikwad103@gmail.com)
-
